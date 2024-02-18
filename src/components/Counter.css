@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    flex-direction:column;
+    background-color: antiquewhite;
+}
+button {
+  border-radius: 10px;
+  width: 120px;
+  height: 80px;
+  font-size: 18px;
+    background-color: rgb(216, 176, 0);
+    cursor:pointer;
+    color:white;
+    margin:34px;
+}
+
+.count{
+    border-radius: 10px;
+    /* width:50vw; */
+}

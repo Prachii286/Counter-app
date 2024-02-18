@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        .main{
+            width:500px;
+            height: 500px;
+          
+        }
+        #parent-row-1{
+            width:500px;
+            height:250px;
+            background-color: aquamarine;
+        }
+        #parent-row-2{
+            width:500px;
+            height:250px;
+            background-color: bisque;
+        }
+        .col1{
+            width:250px;
+            height:250px;
+            background-color: rgb(130, 130, 229);
+            float:left;
+        }
+        .col2{
+            width:250px;
+            height:250px;
+            background-color:rgb(124, 124, 29);
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="parent-row-1">
+            <div class="col1">home</div>
+            <div class="col2">about</div>
+        </div>
+        <hr/>
+        <div id="parent-row-2">
+            <div class="col1">gallery</div>
+            <div class="col2">contact</div>
+        </div>
+    </div>
+</body>
+</html>
